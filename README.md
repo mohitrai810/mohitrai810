@@ -1,24 +1,35 @@
 # Mohit Rai
 
-Computer Science student focused on backend engineering, distributed systems, and AI applications.
+Software Engineer at Capgemini working on 5G RAN systems.
 
-Currently building and learning around:
+Focused on backend engineering, distributed systems, AI applications, and system design.
+
+### Experience
+
+Software Engineer — Capgemini
+5G RAN
+
+Working with C, Linux, 5G RAN, 3GPP, Git, GDB, and shell scripting.
+
+### Current Focus
 
 - Backend systems and APIs
 - System design
-- GenAI
-- Retrieval-Augmented Generation (RAG)
 - Distributed systems
+- GenAI
+- Retrieval-Augmented Generation
+- LLM applications
+- Redis and Docker
 
-### Current Projects
+### Projects
 
-- Production RAG System — document ingestion, semantic retrieval, PGVector and LLM generation
+- Production RAG System — document ingestion, embeddings, PGVector, retrieval and LLM generation
 - Distributed Rate Limiter — Redis-based distributed rate limiting
-- DeepDub — multilingual video dubbing pipeline
+- DeepDub — multilingual AI video dubbing pipeline
+- RAG Log Debugging Assistant — retrieval-based analysis of 5G logs and 3GPP specifications
 
-### Engineering Interests
+### Links
 
-Backend Systems · Distributed Systems · AI Infrastructure · System Design
 
-### Contact
-mohitrai@22222.gmail.com
+[LinkedIn](https://www.linkedin.com/in/mohit-rai-369595224/)
+[LeetCode](https://leetcode.com/u/mohitrai7676760/)
