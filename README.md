@@ -1,120 +1,62 @@
-<h1 align="center">Mohit Rai</h1>
-<h3 align="center">AI/ML Engineer &nbsp;·&nbsp; Backend &amp; Systems Engineer</h3>
+# Hi, I'm Mohit
 
-
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/mohit-rai-369595224/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://leetcode.com/u/mohitrai7676760/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" /></a>
-  <a href="mailto:mohitrai22222@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+<p align="left">
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="mailto:mohitrai22222@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
----
-
-### About
-
-I build retrieval systems, LLM pipelines, and the backend infrastructure that keeps them reliable in production. My background is in systems-level engineering: C, Linux, real-time signaling – which is why I care about making AI systems that hold up outside a notebook.
-
-- Currently building: production-oriented RAG and retrieval pipelines
-- Focus areas: RAG, retrieval evaluation, cross-encoder reranking, embeddings, distributed systems
-- Background: Redis/Lua atomicity, BGE embeddings, Linux-level debugging
-- Open to AI/ML Engineer and Backend Engineer roles
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Systems+%26+GenAI+Engineer;Building+whatever+I+like;C+%7C+Python+%7C+Linux+Systems;LeetCode+Knight+(Peak+1920)" alt="Typing SVG" />
+</p>
 
 ---
 
 ### Tech Stack
 
 <p align="left">
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
 </p>
 
 ---
 
-### Projects
+### Highlights and Stats
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Production RAG &amp; Retrieval Engine**
-Built from scratch, no high-level RAG framework. Document ingestion, recursive chunking, 768-dim BGE embeddings, PGVector storage, cross-encoder reranking, LLM generation.
-
-- Retrieval eval pipeline (Hit@K, Precision@K, Recall@K, MRR) over a 40-query benchmark
-- Applied to 5G troubleshooting: correlates network logs with 3GPP specs for citation-backed debugging
-
-`Python` `PostgreSQL` `PGVector` `BGE Embeddings` `Docker`
-[View Repo](https://github.com/mohitrai810/RAG)
-
-</td>
-<td width="50%" valign="top">
-
-**DeepDub – AI Video Dubbing Pipeline**
-End-to-end multilingual dubbing: WhisperX transcription, GPT-3.5 translation, Edge TTS synthesis, Demucs source separation, FFmpeg sync.
-
-- 40% better audio-video sync via pitch-preserving time-stretching
-- 2.5x lower latency via chunk-wise TTS processing
-- Deployed on Hugging Face Spaces, 30s videos processed in under 90s
-
-`Python` `WhisperX` `Demucs` `FFmpeg` `Gradio`
-[Live Demo](https://huggingface.co/spaces) · [View Repo](https://github.com/mohitrai810/DeepDub-Samples)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Distributed Rate Limiter**
-Token Bucket algorithm with Redis-backed shared state for consistent limits across multiple instances.
-
-- Rate-check logic as an atomic Lua script, eliminates race conditions under concurrent load
-- Exposed as reusable FastAPI middleware with per-endpoint policies and HTTP 429 handling
-
-`Python` `FastAPI` `Redis` `Lua` `Docker`
-[View Repo](https://github.com/mohitrai810/distributed-rate-limiter)
-
-</td>
-<td width="50%" valign="top">
-
-**RAG Log Debugging Assistant**
-Retrieval-based analysis tool correlating 5G RAN logs against 3GPP specifications for faster protocol-issue debugging.
-
-`Python` `RAG` `3GPP` `Retrieval`
-
-</td>
-</tr>
-</table>
+* Algorithmic Problem Solving: LeetCode Knight rank[cite: 1] with a peak rating of 1920[cite: 1] and 1000+ problems solved across LeetCode, Codeforces, and GeeksforGeeks[cite: 1].
+* Systems Engineering: Developing low-level C modules on Linux[cite: 1], handling memory management[cite: 1], and debugging high-throughput runtime code using GDB[cite: 1].
+* Applied GenAI: Building framework-free retrieval pipelines[cite: 1], custom vector search components[cite: 1], and media processing models[cite: 1].
 
 ---
 
-### Open Source
+### Featured Repositories
 
-- **[langgenius/dify-official-plugins](https://github.com/langgenius/dify-official-plugins)** – fixed a `ReadTimeout` streaming issue in the Tongyi TTS plugin via a new incremental PCM streaming class
-- **[explodinggradients/ragas](https://github.com/explodinggradients/ragas)** – fixed a `None`-interpolation bug in `InstanceRubrics._ascore` and a `ChrfScore` reference-handling bug
-- **[modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk)** – contributing a fix for missing `cancel_requested` support on high-level `Context`
+#### 1. [Production-Oriented RAG and Retrieval Engine](https://github.com/mohitrai810)
+Framework-free modular RAG pipeline featuring 768-dimensional BGE embeddings[cite: 1], PGVector storage[cite: 1], and cross-encoder reranking[cite: 1]. Includes an automated evaluation benchmark tracking Hit@K, Precision@K, Recall@K, and MRR[cite: 1].
 
----
+#### 2. [DeepDub - AI Video Dubbing Pipeline](https://github.com/mohitrai810)
+Multilingual video dubbing workflow utilizing WhisperX, GPT-3.5, Edge TTS, Demucs, and FFmpeg[cite: 1]. Cuts inference latency by 2.5x via chunk-wise speech synthesis[cite: 1] and boosts synchronization accuracy by 40%[cite: 1].
 
-### Experience
-
-**Software Engineer – 5G RAN Team, Capgemini** *(Sept 2025 – Present)*
-Design and implement modules for real-time signaling and data-flow control in a large-scale C codebase on Linux. Optimize memory management and resource utilization for latency-sensitive, high-throughput systems.
-
-`C` `Linux` `GDB` `Git` `Jenkins` `Shell Scripting`
+#### 3. [Distributed Rate Limiter Middleware](https://github.com/mohitrai810)
+Shared-state Token Bucket rate limiter built on Redis and exposed via FastAPI middleware[cite: 1]. Uses atomic Lua scripts inside Redis to eliminate race conditions under concurrent load[cite: 1].
 
 ---
-
-### GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mohitrai810&show_icons=true&theme=default&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohitrai810&layout=compact&theme=default&hide_border=true" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=120&section=footer" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-tech-stack.vercel.app/api/cards/tech-stack-card?title=Most%20Used%20Languages&line1=C,c,A8B9CC;Python,python,3776AB;&line2=Linux,linux,FCC624;Bash,gnu-bash,4EAA25;&line3=PostgreSQL,postgresql,4479A1;Redis,redis,DC382D;&line4=Docker,docker,2496ED;FastAPI,fastapi,009688;&theme=algolia&lineCount=4"/>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mohitrai810&color=00c6ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
