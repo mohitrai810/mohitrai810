@@ -1,9 +1,7 @@
 <h1 align="center">Mohit Rai</h1>
 <h3 align="center">AI/ML Engineer &nbsp;·&nbsp; Backend &amp; Systems Engineer</h3>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=2EA3F7&center=true&vCenter=true&width=650&lines=Building+production+RAG+systems+from+scratch;Retrieval+%2B+Reranking+%2B+Evaluation+pipelines;Distributed+systems+%7C+Redis+%7C+FastAPI+%7C+Docker" alt="Typing SVG" />
-</p>
+
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mohit-rai-369595224/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
