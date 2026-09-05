@@ -15,7 +15,7 @@
 
 ### About
 
-I build retrieval systems, LLM pipelines, and the backend infrastructure that keeps them reliable in production. My background is in systems-level engineering — C, Linux, real-time signaling — which is why I care about making AI systems that hold up outside a notebook.
+I build retrieval systems, LLM pipelines, and the backend infrastructure that keeps them reliable in production. My background is in systems-level engineering: C, Linux, real-time signaling – which is why I care about making AI systems that hold up outside a notebook.
 
 - Currently building: production-oriented RAG and retrieval pipelines
 - Focus areas: RAG, retrieval evaluation, cross-encoder reranking, embeddings, distributed systems
@@ -59,7 +59,7 @@ Built from scratch, no high-level RAG framework. Document ingestion, recursive c
 </td>
 <td width="50%" valign="top">
 
-**DeepDub — AI Video Dubbing Pipeline**
+**DeepDub – AI Video Dubbing Pipeline**
 End-to-end multilingual dubbing: WhisperX transcription, GPT-3.5 translation, Edge TTS synthesis, Demucs source separation, FFmpeg sync.
 
 - 40% better audio-video sync via pitch-preserving time-stretching
@@ -99,15 +99,15 @@ Retrieval-based analysis tool correlating 5G RAN logs against 3GPP specification
 
 ### Open Source
 
-- **[langgenius/dify-official-plugins](https://github.com/langgenius/dify-official-plugins)** — fixed a `ReadTimeout` streaming issue in the Tongyi TTS plugin via a new incremental PCM streaming class
-- **[explodinggradients/ragas](https://github.com/explodinggradients/ragas)** — fixed a `None`-interpolation bug in `InstanceRubrics._ascore` and a `ChrfScore` reference-handling bug
-- **[modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk)** — contributing a fix for missing `cancel_requested` support on high-level `Context`
+- **[langgenius/dify-official-plugins](https://github.com/langgenius/dify-official-plugins)** – fixed a `ReadTimeout` streaming issue in the Tongyi TTS plugin via a new incremental PCM streaming class
+- **[explodinggradients/ragas](https://github.com/explodinggradients/ragas)** – fixed a `None`-interpolation bug in `InstanceRubrics._ascore` and a `ChrfScore` reference-handling bug
+- **[modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk)** – contributing a fix for missing `cancel_requested` support on high-level `Context`
 
 ---
 
 ### Experience
 
-**Software Engineer — 5G RAN Team, Capgemini** *(Sept 2025 – Present)*
+**Software Engineer – 5G RAN Team, Capgemini** *(Sept 2025 – Present)*
 Design and implement modules for real-time signaling and data-flow control in a large-scale C codebase on Linux. Optimize memory management and resource utilization for latency-sensitive, high-throughput systems.
 
 `C` `Linux` `GDB` `Git` `Jenkins` `Shell Scripting`
