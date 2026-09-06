@@ -30,22 +30,22 @@
 
 ### Highlights and Stats
 
-* Algorithmic Problem Solving: LeetCode Knight rank[cite: 1] with a peak rating of 1920[cite: 1] and 1000+ problems solved across LeetCode, Codeforces, and GeeksforGeeks[cite: 1].
-* Systems Engineering: Developing low-level C modules on Linux[cite: 1], handling memory management[cite: 1], and debugging high-throughput runtime code using GDB[cite: 1].
-* Applied GenAI: Building framework-free retrieval pipelines[cite: 1], custom vector search components[cite: 1], and media processing models[cite: 1].
+* Algorithmic Problem Solving: LeetCode Knight rank with a peak rating of 1920 and 1000+ problems solved across LeetCode, Codeforces, and GeeksforGeeks.
+* Systems Engineering: Developing low-level C modules on Linux, handling memory management, and debugging high-throughput runtime code using GDB.
+* Applied GenAI: Building framework-free retrieval pipelines, custom vector search components, and media processing models.
 
 ---
 
 ### Featured Repositories
 
 #### 1. [Production-Oriented RAG and Retrieval Engine](https://github.com/mohitrai810)
-Framework-free modular RAG pipeline featuring 768-dimensional BGE embeddings[cite: 1], PGVector storage[cite: 1], and cross-encoder reranking[cite: 1]. Includes an automated evaluation benchmark tracking Hit@K, Precision@K, Recall@K, and MRR[cite: 1].
+Framework-free modular RAG pipeline featuring 768-dimensional BGE embeddings, PGVector storage, and cross-encoder reranking.Includes an automated evaluation benchmark tracking Hit@K, Precision@K, Recall@K, and MRR.
 
 #### 2. [DeepDub - AI Video Dubbing Pipeline](https://github.com/mohitrai810)
-Multilingual video dubbing workflow utilizing WhisperX, GPT-3.5, Edge TTS, Demucs, and FFmpeg[cite: 1]. Cuts inference latency by 2.5x via chunk-wise speech synthesis[cite: 1] and boosts synchronization accuracy by 40%[cite: 1].
+Multilingual video dubbing workflow utilizing WhisperX, GPT-3.5, Edge TTS, Demucs, and FFmpeg. Cuts inference latency by 2.5x via chunk-wise speech synthesis and boosts synchronization accuracy by 40%.
 
 #### 3. [Distributed Rate Limiter Middleware](https://github.com/mohitrai810)
-Shared-state Token Bucket rate limiter built on Redis and exposed via FastAPI middleware[cite: 1]. Uses atomic Lua scripts inside Redis to eliminate race conditions under concurrent load[cite: 1].
+Shared-state Token Bucket rate limiter built on Redis and exposed via FastAPI middleware. Uses atomic Lua scripts inside Redis to eliminate race conditions under concurrent load.
 
 ---
 
